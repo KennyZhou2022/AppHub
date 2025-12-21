@@ -31,5 +31,5 @@ export const getStaticProps: GetStaticProps = async () => {
   const apps = JSON.parse(raw) as AppManifestItem[];
   // optional sort: featured first then by order
   apps.sort((a,b) => (a.featured === b.featured ? (a.order||0) - (b.order||0) : (a.featured ? -1 : 1)));
-  return { props: { apps }, revalidate: 60 }; // ISR: revalidate every 60s if you deploy on Vercel
+  return { props: { apps }};
 };
