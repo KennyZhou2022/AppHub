@@ -1,23 +1,34 @@
 [
   {
-    "id": "jenkins-artifacts",
-    "title": "Build Artifacts",
+    "id": "media-management",
+    "title": "Media Management",
     "type": "app",
-    "description": "Browse CI build artifacts and logs.",
+    "description": "Search media resources and download them.",
     "url": "https://artifacts.example.com",
-    "icon": "/icons/ci.svg",
-    "tags": ["jenkins", "ci-cd", "artifacts"],
-    "featured": false,
-    "order": 10
+    "icon": "/icons/Video-Download.png",
+    "tags": ["Transmission", "Media", "Download"],
+    "featured": true,
+    "order": 3
   },
   {
-    "id": "notebook-examples",
-    "title": "Data Notebook",
-    "type": "notebook",
-    "description": "Explorable notebooks for experiments.",
-    "url": "https://notebooks.example.com",
-    "icon": "/icons/notebook.svg",
-    "tags": ["data", "experiment", "notebook"],
+    "id": "grist-omnibus",
+    "title": "Grist Spreadsheet",
+    "type": "spreadsheet",
+    "description": "Database Application",
+    "url": "http://192.168.2.104:28484",
+    "icon": "/icons/grist.png",
+    "tags": ["Grist", "Spreadsheet", "Database"],
+    "featured": true,
+    "order": 2
+  },
+  {
+    "id": "truenas-scale",
+    "title": "TrueNAS Dashboard",
+    "type": "app",
+    "description": "TrueNAS Dashboard",
+    "url": "http://192.168.2.104:28080/",
+    "icon": "/icons/truenas.png",
+    "tags": ["TrueNAS", "Dashboard", "Management"],
     "featured": true,
     "order": 1
   }

@@ -1,0 +1,24 @@
+{
+    "name": "apphub",
+    "version": "0.1.0",
+    "private": true,
+    "description": "A simple, elegant hub for launching independent applications",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "lint": "next lint",
+        "export": "next export",
+        "start": "npx serve out"
+    },
+    "dependencies": {
+        "next": "^14.2.10",
+        "react": "18.3.1",
+        "react-dom": "18.3.1"
+    },
+    "devDependencies": {
+        "@types/node": "25.0.3",
+        "@types/react": "18.3.3",
+        "@types/react-dom": "18.3.0",
+        "typescript": "5.5.4"
+    }
+}
