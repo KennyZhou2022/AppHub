@@ -1,0 +1,24 @@
+[
+  {
+    "id": "jenkins-artifacts",
+    "title": "Build Artifacts",
+    "type": "app",
+    "description": "Browse CI build artifacts and logs.",
+    "url": "https://artifacts.example.com",
+    "icon": "/icons/ci.svg",
+    "tags": ["jenkins", "ci-cd", "artifacts"],
+    "featured": false,
+    "order": 10
+  },
+  {
+    "id": "notebook-examples",
+    "title": "Data Notebook",
+    "type": "notebook",
+    "description": "Explorable notebooks for experiments.",
+    "url": "https://notebooks.example.com",
+    "icon": "/icons/notebook.svg",
+    "tags": ["data", "experiment", "notebook"],
+    "featured": true,
+    "order": 1
+  }
+]
