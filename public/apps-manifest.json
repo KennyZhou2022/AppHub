@@ -1,14 +1,47 @@
 [
   {
+    "id": "photoprism",
+    "title": "PhotoPrism",
+    "type": "app",
+    "description": "PhotoPrism Application",
+    "url": "http://192.168.2.104:20800",
+    "icon": "/icons/photoprism.svg",
+    "tags": ["Photo", "Video", "Gallery"],
+    "featured": true,
+    "order": 5
+  },
+  {
+    "id": "clash",
+    "title": "Clash",
+    "type": "app",
+    "description": "Clash Configuration Website",
+    "url": "http://192.168.2.104:9008/#/",
+    "icon": "/icons/clash.png",
+    "tags": ["Clash", "Network", "Proxy"],
+    "featured": true,
+    "order": 4
+  },
+  {
+    "id": "transmission",
+    "title": "Transmission",
+    "type": "app",
+    "description": "Downloader Web Application",
+    "url": "http://192.168.2.104:9091",
+    "icon": "/icons/transmission.png",
+    "tags": ["Transmission", "File", "Download"],
+    "featured": true,
+    "order": 2
+  },
+  {
     "id": "media-management",
     "title": "Media Management",
     "type": "app",
     "description": "Search media resources and download them.",
-    "url": "https://artifacts.example.com",
+    "url": "http://192.168.2.104:38000",
     "icon": "/icons/Video-Download.png",
-    "tags": ["Transmission", "Media", "Download"],
+    "tags": ["RSS", "Media", "Download"],
     "featured": true,
-    "order": 3
+    "order": 6
   },
   {
     "id": "grist-omnibus",
@@ -19,7 +52,7 @@
     "icon": "/icons/grist.png",
     "tags": ["Grist", "Spreadsheet", "Database"],
     "featured": true,
-    "order": 2
+    "order": 3
   },
   {
     "id": "truenas-scale",

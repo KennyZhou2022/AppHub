@@ -13,10 +13,11 @@ export default function Home({ apps }: Props) {
       <Head>
         <title>App Hub</title>
         <meta name="description" content="Apps gallery" />
+        <link rel="icon" href="/hub.png" />
       </Head>
       <main>
         <header style={{textAlign:'center', padding:'40px 0'}}>
-          <h1>Notebooks Gallery</h1>
+          <h1>Application Gallery</h1>
           <p>Explore interactive computational notebooks and applications</p>
         </header>
         <AppGrid apps={apps} />
